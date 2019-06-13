@@ -25,11 +25,13 @@
 
     <script type="text/javascript">
         // JavaScript code goes here at the bottom
+        var randomNum =document.querySelector(".Number");
         function getRandomNumbers(randomMin ,randomMax){
 
             return Math.random() * (randomMax - randomMin) + randomMin;
             console.log(1,9)
         }
+        randomNum.innerHTML =getRandomNumbers(1,9).toFixed();
 	</script>
 </body>
 </body>
