@@ -1,0 +1,21 @@
+.Number{
+    font-size:100px;
+    color: black;
+}
+.Number1{
+    font-size:100px;
+    color: black;
+}
+.Number2{
+    font-size:100px;
+    color: black;
+}
+.randomHearder{
+    flex-flow: column-reverse;
+    background-color: bisque;
+}
+
+    .float{
+       float: left;
+        margin: 16px;
+    }
